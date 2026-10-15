@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KROMA Studio is an award-winning fictional design practice specializing in brand identity, UI/UX systems, and creative web development.">
+  <title>KROMA Studio &mdash; Digital Design &amp; Brand Architecture</title>
+
+  <!-- Google Fonts: Syne (Display) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="KROMA Studio Home">
+        <span class="logo-mark" aria-hidden="true">K/</span>
+        <span class="logo-text">KROMA<span class="accent-dot">.</span></span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        class="nav-toggle" 
+        id="navToggle" 
+        type="button" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="primaryNav"
+      >
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="primary-nav" id="primaryNav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-wrapper">
+          <a href="#contact" class="btn btn-primary nav-cta">Start a Project</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for Q2 Projects</span>
+          </div>
+
+          <h1 class="hero-title">
+            Crafting digital <span class="gradient-text">archetypes</span> for ambitious brands.
+          </h1>
+
+          <p class="hero-lead">
+            We are KROMA &mdash; an independent boutique design studio crafting memorable brand identities, high-impact digital experiences, and scalable design systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              <span>View Selected Work</span>
+              <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-value">98<span class="stat-symbol">%</span></span>
+              <span class="stat-label">Client Retention</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">16<span class="stat-symbol">+</span></span>
+              <span class="stat-label">Design Honors</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value">75<span class="stat-symbol">+</span></span>
+              <span class="stat-label">Shipped Products</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Core Disciplines</span>
+          <h2 class="section-title">Intentional craft across every touchpoint.</h2>
+          <p class="section-subtitle">
+            We fuse brand strategy with obsessive visual execution to create timeless products that perform.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card reveal">
+            <div class="service-number" aria-hidden="true">01</div>
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Digital Product &amp; UI/UX</h3>
+            <p class="service-description">
+              Intuitive, research-backed interfaces that solve real user friction. From end-to-end design systems to interactive prototypes.
+            </p>
+            <ul class="service-features">
+              <li>Design Systems &amp; Tokens</li>
+              <li>Wireframing &amp; Rapid Prototyping</li>
+              <li>User Journey Mapping</li>
+              <li>SaaS &amp; Mobile App UI</li>
+            </ul>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card reveal">
+            <div class="service-number" aria-hidden="true">02</div>
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">Brand Architecture &amp; Identity</h3>
+            <p class="service-description">
+              Distinct visual identities with personality. We distill your purpose into bespoke typography, guidelines, and visual language.
+            </p>
+            <ul class="service-features">
+              <li>Visual Identity Systems</li>
+              <li>Typography &amp; Color Strategy</li>
+              <li>Brand Guidelines &amp; Voice</li>
+              <li>Custom Iconography &amp; Art Direction</li>
+            </ul>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card reveal">
+            <div class="service-number" aria-hidden="true">03</div>
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Creative Web Development</h3>
+            <p class="service-description">
+              Pixel-perfect front-end engineering with silky-smooth micro-interactions, responsive fluidity, and lighthouse-grade speeds.
+            </p>
+            <ul class="service-features">
+              <li>Responsive Front-End Code</li>
+              <li>Custom Micro-Interactions &amp; GSAP</li>
+              <li>Accessible (WCAG 2.1) Architecture</li>
+              <li>Performance &amp; SEO Optimization</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED WORK SECTION ==================== -->
+    <section class="work-section section-padding" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Case Studies</span>
+          <h2 class="section-title">Selected work that sparked growth.</h2>
+          <p class="section-subtitle">
+            A curation of recent collaborations across identity, digital design, and engineering.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="work-filters reveal" role="tablist" aria-label="Portfolio Category Filter">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Works</button>
+          <button type="button" class="filter-btn" data-filter="branding" role="tab" aria-selected="false">Branding</button>
+          <button type="button" class="filter-btn" data-filter="ui-ux" role="tab" aria-selected="false">UI / UX</button>
+          <button type="button" class="filter-btn" data-filter="development" role="tab" aria-selected="false">Development</button>
+        </div>
+
+        <!-- 6-Card Portfolio Grid -->
+        <div class="work-grid" id="workGrid">
+          
+          <!-- Card 1 -->
+          <article class="work-card reveal" data-category="ui-ux">
+            <div class="work-thumb work-thumb-1">
+              <div class="thumb-badge">UI / UX</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-mockup mockup-app">
+                  <div class="mockup-header">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  </div>
+                  <div class="mockup-chart">
+                    <div class="bar bar-1"></div>
+                    <div class="bar bar-2"></div>
+                    <div class="bar bar-3"></div>
+                    <div class="bar bar-4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Mobile Experience &bull; 2026</span>
+              <h3 class="work-title">Apex Health Engine</h3>
+              <p class="work-desc">Telemetry dashboard and biometric health insights for high-performance athletes.</p>
+              <a href="#contact" class="work-link" aria-label="View Apex Health Engine case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="work-card reveal" data-category="branding">
+            <div class="work-thumb work-thumb-2">
+              <div class="thumb-badge">Branding</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-logo-mark">
+                  <span class="symbol-ring"></span>
+                  <span class="symbol-text">SOLSTICE</span>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Visual Identity &bull; 2026</span>
+              <h3 class="work-title">Solstice Botanicals</h3>
+              <p class="work-desc">Complete brand identity, packaging system, and sustainable typography for clean skincare.</p>
+              <a href="#contact" class="work-link" aria-label="View Solstice Botanicals case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="work-card reveal" data-category="development">
+            <div class="work-thumb work-thumb-3">
+              <div class="thumb-badge">Development</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-code-window">
+                  <div class="code-line line-1"></div>
+                  <div class="code-line line-2"></div>
+                  <div class="code-line line-3"></div>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Creative Engineering &bull; 2025</span>
+              <h3 class="work-title">Hyperion Quantum Web</h3>
+              <p class="work-desc">Three-dimensional interactive web experience built for a deep-tech quantum computing lab.</p>
+              <a href="#contact" class="work-link" aria-label="View Hyperion Quantum Web case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="work-card reveal" data-category="ui-ux">
+            <div class="work-thumb work-thumb-4">
+              <div class="thumb-badge">UI / UX</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-card-deck">
+                  <div class="deck-card deck-card-back"></div>
+                  <div class="deck-card deck-card-front">
+                    <div class="card-chip"></div>
+                    <div class="card-num">&bull;&bull;&bull;&bull; 4092</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Fintech Design &bull; 2025</span>
+              <h3 class="work-title">Strata Neo-Bank</h3>
+              <p class="work-desc">Next-generation cross-border treasury app with zero-latency transfers and modular card tools.</p>
+              <a href="#contact" class="work-link" aria-label="View Strata Neo-Bank case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="work-card reveal" data-category="branding">
+            <div class="work-thumb work-thumb-5">
+              <div class="thumb-badge">Branding</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-editorial">
+                  <span class="mono-year">VOL. IV</span>
+                  <div class="editorial-lines">
+                    <span class="e-line"></span>
+                    <span class="e-line short"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Editorial &amp; Strategy &bull; 2025</span>
+              <h3 class="work-title">Monolith Architecture</h3>
+              <p class="work-desc">Monograph publishing brand, digital portfolio, and exhibition identity for a brutalist firm.</p>
+              <a href="#contact" class="work-link" aria-label="View Monolith Architecture case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="work-card reveal" data-category="development">
+            <div class="work-thumb work-thumb-6">
+              <div class="thumb-badge">Development</div>
+              <div class="thumb-visual" aria-hidden="true">
+                <div class="visual-audio-wave">
+                  <span class="wave-bar"></span>
+                  <span class="wave-bar"></span>
+                  <span class="wave-bar"></span>
+                  <span class="wave-bar"></span>
+                  <span class="wave-bar"></span>
+                </div>
+              </div>
+            </div>
+            <div class="work-info">
+              <span class="work-meta">Sound &amp; Interaction &bull; 2025</span>
+              <h3 class="work-title">Kanso Audio Synthetics</h3>
+              <p class="work-desc">WebAudio generative sound generator with custom canvas visualizers and preset marketplace.</p>
+              <a href="#contact" class="work-link" aria-label="View Kanso Audio Synthetics case study">
+                <span>Explore Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          
+          <!-- Contact Details / Left Column -->
+          <div class="contact-info reveal">
+            <span class="section-tag">Start a Dialogue</span>
+            <h2 class="section-title">Let’s build something unmistakable together.</h2>
+            <p class="contact-lead">
+              Have an upcoming product launch, redesign, or brand overhaul? We’d love to learn about your goals and explore synergies.
+            </p>
+
+            <div class="studio-details">
+              <div class="detail-item">
+                <span class="detail-label">Direct Inquiries</span>
+                <a href="mailto:hello@kromastudio.design" class="detail-val">hello@kromastudio.design</a>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Studio Coordinates</span>
+                <span class="detail-val">404 Voxel Blvd, Suite 800 &bull; San Francisco, CA</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Timezone &amp; Response</span>
+                <span class="detail-val">PST (UTC-8) &bull; Replies within 24 hours</span>
+              </div>
+            </div>
+
+            <!-- Social pill links -->
+            <div class="social-links">
+              <a href="#" class="social-pill" target="_blank" rel="noopener noreferrer">Twitter / X</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener noreferrer">Dribbble</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <!-- Contact Form / Right Column -->
+          <div class="contact-form-card reveal">
+            <!-- Success Notification Alert (hidden initially) -->
+            <div class="form-alert alert-success" id="formSuccessAlert" role="alert" aria-live="polite" hidden>
+              <div class="alert-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="alert-content">
+                <strong>Inquiry Sent!</strong>
+                <p>Thank you. Your message has been received. Our team will review your project and reply within one business day.</p>
+              </div>
+            </div>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <!-- Name Field -->
+              <div class="form-group" id="group-name">
+                <label for="name" class="form-label">
+                  Your Full Name <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-control" 
+                  placeholder="e.g. Alex Morgan" 
+                  autocomplete="name"
+                  aria-required="true"
+                  aria-describedby="name-error"
+                >
+                <span class="error-msg" id="name-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group" id="group-email">
+                <label for="email" class="form-label">
+                  Email Address <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="alex@company.com" 
+                  autocomplete="email"
+                  aria-required="true"
+                  aria-describedby="email-error"
+                >
+                <span class="error-msg" id="email-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Service of Interest -->
+              <div class="form-group" id="group-service">
+                <label for="service" class="form-label">
+                  Primary Service Needed <span class="required" aria-hidden="true">*</span>
+                </label>
+                <div class="select-wrapper">
+                  <select 
+                    id="service" 
+                    name="service" 
+                    class="form-control" 
+                    aria-required="true"
+                    aria-describedby="service-error"
+                  >
+                    <option value="">Choose a service discipline...</option>
+                    <option value="ui-ux">Digital Product &amp; UI/UX</option>
+                    <option value="branding">Brand Architecture &amp; Identity</option>
+                    <option value="development">Creative Web Development</option>
+                    <option value="full-scope">Full-Scope Engagement (All three)</option>
+                  </select>
+                </div>
+                <span class="error-msg" id="service-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group" id="group-message">
+                <label for="message" class="form-label">
+                  Project Scope &amp; Timeline <span class="required" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-control text-area" 
+                  rows="4" 
+                  placeholder="Tell us about what you're building, target budget, and desired timeline..." 
+                  aria-required="true"
+                  aria-describedby="message-error"
+                ></textarea>
+                <span class="error-msg" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <span class="btn-text">Transmit Project Brief</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+
+              <p class="form-privacy-note">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Your data is strictly confidential. Zero spam, ever.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo" aria-label="KROMA Studio Home">
+          <span class="logo-mark" aria-hidden="true">K/</span>
+          <span class="logo-text">KROMA<span class="accent-dot">.</span></span>
+        </a>
+        <p class="footer-tagline">Designing artifacts for the next digital era.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Featured Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 KROMA Studio LLC. All rights reserved. Plain HTML, CSS &amp; JS.</p>
+        <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top of page">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          <span>Top</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
